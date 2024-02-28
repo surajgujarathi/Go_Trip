@@ -45,7 +45,7 @@ class _Container6State extends State<Container6> {
                   Padding(
                     padding: const EdgeInsets.only(left: 20),
                     child: Text(
-                      'Our ultimate goal is to inspire and enable memorable\n journeys for everyone, regardless of their destination\n or budget.',
+                      'Our ultimate goal is  inspire and enable memorable\n journeys for everyone, regardless of their destination\n or budget.',
                       style: TextStyle(
                           fontSize: 17,
                           color: Colors.grey.shade500,
