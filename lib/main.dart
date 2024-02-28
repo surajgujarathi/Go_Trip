@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
+import 'package:go_trip_ui/Mobilecontainer6.dart';
 import 'package:go_trip_ui/Mobilepng.dart';
 import 'package:go_trip_ui/constant.dart';
 import 'package:go_trip_ui/container1.dart';
@@ -12,6 +13,7 @@ import 'package:go_trip_ui/mobilecontainer3.dart';
 import 'package:go_trip_ui/mobilecontainer4.dart';
 import 'container2.dart';
 import 'container3.dart';
+import 'mobilecontainer5.dart';
 import 'png.dart';
 
 void main() {
@@ -85,7 +87,9 @@ class _MyHomepageState extends State<MyHomepage> {
                     MobilePng(),
                     MobileContainer2(),
                     MobileContainer3(),
-                    MobileContainer4()
+                    MobileContainer4(),
+                    Mobilecontainer5(),
+                    MobileContainer6(),
                   ],
                 ),
               ),
