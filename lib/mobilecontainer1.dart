@@ -30,9 +30,10 @@ class MobileContainer1 extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(horizontal: 20),
                       child: Row(
                         children: [
-                          const Icon(
-                            Icons.flight_sharp,
-                            color: Colors.white,
+                          Container(
+                            child: Image.asset('assets/flight.png'),
+                            height: 50,
+                            width: 40,
                           ),
                           Text(
                             "GoTrip",
