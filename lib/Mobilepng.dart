@@ -7,7 +7,12 @@ class MobilePng extends StatelessWidget {
       scrollDirection: Axis.horizontal,
       child: Row(
         children: [
-          Image.asset("assets/logo.png"),
+          Container(
+              child: Image.asset(
+            "assets/logo.png",
+            height: 100,
+            width: 1400,
+          )),
         ],
       ),
     );
